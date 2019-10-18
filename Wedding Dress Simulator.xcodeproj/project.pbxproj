@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9398794323552B9900155131 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9398794223552B9900155131 /* AppDelegate.swift */; };
+		9398794523552B9900155131 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9398794423552B9900155131 /* ViewController.swift */; };
+		9398794823552B9900155131 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9398794623552B9900155131 /* Main.storyboard */; };
+		9398794A23552B9B00155131 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9398794923552B9B00155131 /* Assets.xcassets */; };
+		9398794D23552B9B00155131 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9398794B23552B9B00155131 /* LaunchScreen.storyboard */; };
+		9398795823552B9B00155131 /* Wedding_Dress_SimulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9398795723552B9B00155131 /* Wedding_Dress_SimulatorTests.swift */; };
+		9398796323552B9B00155131 /* Wedding_Dress_SimulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9398796223552B9B00155131 /* Wedding_Dress_SimulatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9398795423552B9B00155131 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9398793723552B9800155131 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9398793E23552B9900155131;
+			remoteInfo = "Wedding Dress Simulator";
+		};
+		9398795F23552B9B00155131 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9398793723552B9800155131 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9398793E23552B9900155131;
+			remoteInfo = "Wedding Dress Simulator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9398793F23552B9900155131 /* Wedding Dress Simulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wedding Dress Simulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9398794223552B9900155131 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9398794423552B9900155131 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9398794723552B9900155131 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9398794923552B9B00155131 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9398794C23552B9B00155131 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9398794E23552B9B00155131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9398795323552B9B00155131 /* Wedding Dress SimulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wedding Dress SimulatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9398795723552B9B00155131 /* Wedding_Dress_SimulatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wedding_Dress_SimulatorTests.swift; sourceTree = "<group>"; };
+		9398795923552B9B00155131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9398795E23552B9B00155131 /* Wedding Dress SimulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wedding Dress SimulatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9398796223552B9B00155131 /* Wedding_Dress_SimulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wedding_Dress_SimulatorUITests.swift; sourceTree = "<group>"; };
+		9398796423552B9B00155131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9398793C23552B9900155131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9398795023552B9B00155131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9398795B23552B9B00155131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9398793623552B9800155131 = {
+			isa = PBXGroup;
+			children = (
+				9398794123552B9900155131 /* Wedding Dress Simulator */,
+				9398795623552B9B00155131 /* Wedding Dress SimulatorTests */,
+				9398796123552B9B00155131 /* Wedding Dress SimulatorUITests */,
+				9398794023552B9900155131 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9398794023552B9900155131 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9398793F23552B9900155131 /* Wedding Dress Simulator.app */,
+				9398795323552B9B00155131 /* Wedding Dress SimulatorTests.xctest */,
+				9398795E23552B9B00155131 /* Wedding Dress SimulatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9398794123552B9900155131 /* Wedding Dress Simulator */ = {
+			isa = PBXGroup;
+			children = (
+				9398794223552B9900155131 /* AppDelegate.swift */,
+				9398794423552B9900155131 /* ViewController.swift */,
+				9398794623552B9900155131 /* Main.storyboard */,
+				9398794923552B9B00155131 /* Assets.xcassets */,
+				9398794B23552B9B00155131 /* LaunchScreen.storyboard */,
+				9398794E23552B9B00155131 /* Info.plist */,
+			);
+			path = "Wedding Dress Simulator";
+			sourceTree = "<group>";
+		};
+		9398795623552B9B00155131 /* Wedding Dress SimulatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				9398795723552B9B00155131 /* Wedding_Dress_SimulatorTests.swift */,
+				9398795923552B9B00155131 /* Info.plist */,
+			);
+			path = "Wedding Dress SimulatorTests";
+			sourceTree = "<group>";
+		};
+		9398796123552B9B00155131 /* Wedding Dress SimulatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9398796223552B9B00155131 /* Wedding_Dress_SimulatorUITests.swift */,
+				9398796423552B9B00155131 /* Info.plist */,
+			);
+			path = "Wedding Dress SimulatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9398793E23552B9900155131 /* Wedding Dress Simulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9398796723552B9B00155131 /* Build configuration list for PBXNativeTarget "Wedding Dress Simulator" */;
+			buildPhases = (
+				9398793B23552B9900155131 /* Sources */,
+				9398793C23552B9900155131 /* Frameworks */,
+				9398793D23552B9900155131 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wedding Dress Simulator";
+			productName = "Wedding Dress Simulator";
+			productReference = 9398793F23552B9900155131 /* Wedding Dress Simulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9398795223552B9B00155131 /* Wedding Dress SimulatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9398796A23552B9B00155131 /* Build configuration list for PBXNativeTarget "Wedding Dress SimulatorTests" */;
+			buildPhases = (
+				9398794F23552B9B00155131 /* Sources */,
+				9398795023552B9B00155131 /* Frameworks */,
+				9398795123552B9B00155131 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9398795523552B9B00155131 /* PBXTargetDependency */,
+			);
+			name = "Wedding Dress SimulatorTests";
+			productName = "Wedding Dress SimulatorTests";
+			productReference = 9398795323552B9B00155131 /* Wedding Dress SimulatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9398795D23552B9B00155131 /* Wedding Dress SimulatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9398796D23552B9B00155131 /* Build configuration list for PBXNativeTarget "Wedding Dress SimulatorUITests" */;
+			buildPhases = (
+				9398795A23552B9B00155131 /* Sources */,
+				9398795B23552B9B00155131 /* Frameworks */,
+				9398795C23552B9B00155131 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9398796023552B9B00155131 /* PBXTargetDependency */,
+			);
+			name = "Wedding Dress SimulatorUITests";
+			productName = "Wedding Dress SimulatorUITests";
+			productReference = 9398795E23552B9B00155131 /* Wedding Dress SimulatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9398793723552B9800155131 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Aaron;
+				TargetAttributes = {
+					9398793E23552B9900155131 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					9398795223552B9B00155131 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 9398793E23552B9900155131;
+					};
+					9398795D23552B9B00155131 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 9398793E23552B9900155131;
+					};
+				};
+			};
+			buildConfigurationList = 9398793A23552B9800155131 /* Build configuration list for PBXProject "Wedding Dress Simulator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9398793623552B9800155131;
+			productRefGroup = 9398794023552B9900155131 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9398793E23552B9900155131 /* Wedding Dress Simulator */,
+				9398795223552B9B00155131 /* Wedding Dress SimulatorTests */,
+				9398795D23552B9B00155131 /* Wedding Dress SimulatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9398793D23552B9900155131 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9398794D23552B9B00155131 /* LaunchScreen.storyboard in Resources */,
+				9398794A23552B9B00155131 /* Assets.xcassets in Resources */,
+				9398794823552B9900155131 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9398795123552B9B00155131 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9398795C23552B9B00155131 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9398793B23552B9900155131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9398794523552B9900155131 /* ViewController.swift in Sources */,
+				9398794323552B9900155131 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9398794F23552B9B00155131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9398795823552B9B00155131 /* Wedding_Dress_SimulatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9398795A23552B9B00155131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9398796323552B9B00155131 /* Wedding_Dress_SimulatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9398795523552B9B00155131 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9398793E23552B9900155131 /* Wedding Dress Simulator */;
+			targetProxy = 9398795423552B9B00155131 /* PBXContainerItemProxy */;
+		};
+		9398796023552B9B00155131 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9398793E23552B9900155131 /* Wedding Dress Simulator */;
+			targetProxy = 9398795F23552B9B00155131 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9398794623552B9900155131 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9398794723552B9900155131 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9398794B23552B9B00155131 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9398794C23552B9B00155131 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9398796523552B9B00155131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9398796623552B9B00155131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9398796823552B9B00155131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Wedding Dress Simulator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Aaron.Wedding-Dress-Simulator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9398796923552B9B00155131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Wedding Dress Simulator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Aaron.Wedding-Dress-Simulator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9398796B23552B9B00155131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Wedding Dress SimulatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Aaron.Wedding-Dress-SimulatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wedding Dress Simulator.app/Wedding Dress Simulator";
+			};
+			name = Debug;
+		};
+		9398796C23552B9B00155131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Wedding Dress SimulatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Aaron.Wedding-Dress-SimulatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wedding Dress Simulator.app/Wedding Dress Simulator";
+			};
+			name = Release;
+		};
+		9398796E23552B9B00155131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Wedding Dress SimulatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Aaron.Wedding-Dress-SimulatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Wedding Dress Simulator";
+			};
+			name = Debug;
+		};
+		9398796F23552B9B00155131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Wedding Dress SimulatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Aaron.Wedding-Dress-SimulatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Wedding Dress Simulator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9398793A23552B9800155131 /* Build configuration list for PBXProject "Wedding Dress Simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9398796523552B9B00155131 /* Debug */,
+				9398796623552B9B00155131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9398796723552B9B00155131 /* Build configuration list for PBXNativeTarget "Wedding Dress Simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9398796823552B9B00155131 /* Debug */,
+				9398796923552B9B00155131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9398796A23552B9B00155131 /* Build configuration list for PBXNativeTarget "Wedding Dress SimulatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9398796B23552B9B00155131 /* Debug */,
+				9398796C23552B9B00155131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9398796D23552B9B00155131 /* Build configuration list for PBXNativeTarget "Wedding Dress SimulatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9398796E23552B9B00155131 /* Debug */,
+				9398796F23552B9B00155131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9398793723552B9800155131 /* Project object */;
+}
